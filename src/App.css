@@ -1,0 +1,48 @@
+.main {
+  width: 830px;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.container-animation {
+  animation: circle 5s linear infinite;
+}
+
+@keyframes circle {
+  0% {
+    transform: rotate(0deg) translate(-165px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(-165px) rotate(-360deg);
+  }
+}
+
+
+.active {
+  color: #000;
+}
+
+td {
+  padding: 20px;
+}
+
+input {
+  height: 30px;
+  border-radius: 10px;
+  padding: 4px;
+  color: rgb(0, 0, 0);
+  background: rgb(125, 125, 125);
+}
+
+textarea {
+  background: rgb(126, 126, 126);
+}
+input::-webkit-outer-spin-button {
+  display: none;
+}
